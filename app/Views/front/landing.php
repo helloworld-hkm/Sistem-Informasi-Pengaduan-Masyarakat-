@@ -79,7 +79,7 @@
             <h1>Selamat Datang Di <span>Aplikasi Pengaduan Masyarakat</span></h1>
             <h2 style="color:#ffffff">POLDA JAWA TENGAH</h2>
                 <div class="d-flex">
-                    <a href="" class="btn-get-started scrollto">Login</a>
+                    <a href="<?=base_url()?>/login" class="btn-get-started scrollto">Login</a>
                 </div>
         </div>
      
