@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>BizLand Bootstrap Template - Index</title>
+    <title>POLDA JAWA TENGAH - Home</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -53,7 +53,7 @@
 
             <!-- <h1 class="logo"><a href="#">s<span></span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" class="logo"><img src="<?php echo base_url() ?>/assets/img/polda.ico" width="50x" height="50px"></a>
+            <a href="index.html" class="logo"><img src="<?php echo base_url() ?>/assets/img/polda.ico" width="40x" height="40px"></a>
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -70,19 +70,26 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
+       
+    <video class="hero"  autoplay loop muted plays-inline style="position:absolute;right:0;bottom:0;z-index:-100;" >
+            <source src="<?=base_url()?>/assets/img/bacd.mp4">
+    </video>
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
+       
             <h1>Selamat Datang Di <span>Aplikasi Pengaduan Masyarakat</span></h1>
-            <h2>POLDA JAWA TENGAH/h2>
+            <h2 style="color:#ffffff">POLDA JAWA TENGAH</h2>
                 <div class="d-flex">
                     <a href="" class="btn-get-started scrollto">Login</a>
                 </div>
         </div>
+     
+        
     </section><!-- End Hero -->
-
+ 
     <main id="main">
 
 
-
+   
         <!-- ======= Portfolio Section ======= -->
         <section id="visimisi" class="visimisi">
             <div class="container" data-aos="fade-up">
@@ -122,40 +129,7 @@
 
 
         </section>
-        <!-- End Portfolio Section -->
 
-        <!-- ======= Team Section ======= -->
-        <!-- <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Team</h2>
-                    <h3>Team Develop <span>Kami</span></h3>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <div class="member-img">
-                                <img src="<?php echo base_url() ?>/assets/img/portfolio/foto.jpeg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Ananda Rizq</h4>
-                                <span>FullStack Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>End Team Section -->
-
-        <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
 
@@ -179,6 +153,7 @@
                             <i class="bx bx-envelope"></i>
                             <h3>Email Kami</h3>
                             <p>bidti_jateng@polri.go.id</p>
+                         
                         </div>
                     </div>
 
@@ -213,26 +188,29 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3><img src="<?php echo base_url() ?>/assets/img/polda.ico" width="100px" height="100px"><span></span></h3>
-                        <p>
-                            Jl. Pahlawan No. 1 Semarang
-                            Jateng, Indonesia
-                            <strong>Telpon:</strong> 021 – 83713168<br>
-                            <strong>Email:</strong> bidti_jateng@polri.go.id<br>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
+                <div class="col-lg-7 col-md-5 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#visimisi">Fasilitas</a></li>
-                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li> -->
+                        
                             <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
                         </ul>
                     </div>
+                    <div class="col-lg-1 col-md-2 footer-contact " style="margin-right:30px ;">
+                    <h3><img src="<?php echo base_url() ?>/assets/img/polda.ico"  width="100px" height="100px"></h3>
+                    </div>
+                    <div class="col-lg-3 col-md-3 footer-contact">
+                       
+                        <p>
+                            Jl. Pahlawan No. 1 Semarang Jateng, Indonesia <br>
+                            <strong>Telpon:</strong> 021 – 83713168<br>
+                            <strong>Email:</strong> bidti_jateng@polri.go.id<br>
+                            <strong>Website:</strong>   <a href="https://jateng.polri.go.id">https://jateng.polri.go.id</a>
+                        </p>
+                    </div>
+
+                    
 
                 </div>
             </div>
@@ -240,7 +218,7 @@
 
         <div class="container py-4">
             <div class="copyright">
-                &copy; Copyright <strong><span>BizLand</span></strong>.
+                &copy; Copyright <strong><span>POLDA JATENG</span></strong>.
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
