@@ -4,8 +4,8 @@
 ## Build With
 CodeIgniter 4
 
-### Build With
-CodeIgniter 4
+### Getting Started
+- 
 
 Develop by : Ganda & Hakim
 
